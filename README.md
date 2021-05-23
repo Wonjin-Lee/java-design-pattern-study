@@ -7,3 +7,4 @@
 ### 3. [Template Method 패턴](/src/main/java/com/wonjin/designpattern/templatemethod)
 ### 4. [Factory Method 패턴](/src/main/java/com/wonjin/designpattern/factorymethod)
 ### 5. [Singleton 패턴](/src/main/java/com/wonjin/designpattern/singleton)
+### 6. [Prototype 패턴](/src/main/java/com/wonjin/designpattern/prototype)
