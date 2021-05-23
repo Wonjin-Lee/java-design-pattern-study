@@ -2,7 +2,7 @@ package com.wonjin.designpattern.prototype;
 
 import com.wonjin.designpattern.prototype.framework.Product;
 
-public class MessageBox implements Product {
+public class MessageBox extends Product {
 
     private char decoChar;
 
@@ -23,16 +23,5 @@ public class MessageBox implements Product {
             System.out.print(decoChar);
         }
         System.out.println();
-    }
-
-    @Override
-    public Product createClone() {
-        Product product = null;
-        try {
-            product = (Product) clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-        return product;
     }
 }

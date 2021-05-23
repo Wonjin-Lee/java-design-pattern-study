@@ -2,7 +2,7 @@ package com.wonjin.designpattern.prototype;
 
 import com.wonjin.designpattern.prototype.framework.Product;
 
-public class UnderlinePen implements Product {
+public class UnderlinePen extends Product {
 
     private char underlineChar;
 
@@ -19,16 +19,5 @@ public class UnderlinePen implements Product {
             System.out.print(underlineChar);
         }
         System.out.println();
-    }
-
-    @Override
-    public Product createClone() {
-        Product product = null;
-        try {
-            product = (Product) clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-        return product;
     }
 }
