@@ -9,3 +9,4 @@
 ### 5. [Singleton 패턴](/src/main/java/com/wonjin/designpattern/singleton)
 ### 6. [Prototype 패턴](/src/main/java/com/wonjin/designpattern/prototype)
 ### 7. [Builder 패턴](/src/main/java/com/wonjin/designpattern/builder)
+### 8. [Abstract Factory 패턴](/src/main/java/com/wonjin/designpattern/abstractfactory)
