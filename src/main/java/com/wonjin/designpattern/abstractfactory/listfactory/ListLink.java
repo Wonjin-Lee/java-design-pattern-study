@@ -9,6 +9,6 @@ public class ListLink extends Link {
 
     @Override
     public String makeHTML() {
-        return "    <li><a href=\"" + "\">" + caption + "</a></li>\n";
+        return "    <li><a href=\"" + url + "\">" + caption + "</a></li>\n";
     }
 }
