@@ -7,6 +7,8 @@ public class Main {
         CountDisplay d3 = new CountDisplay(new StringDisplayImpl("Hello, Aesop."));
         RandomCountDisplay d4 = new RandomCountDisplay(new StringDisplayImpl("Hello Apple."));
         RandomCountDisplay d5 = new RandomCountDisplay(new FileDisplayImpl("star.txt"));
+        IncreaseDisplay d6 = new IncreaseDisplay(new CharDisplayImpl('<', '*', '>'), 1);
+        IncreaseDisplay d7 = new IncreaseDisplay(new CharDisplayImpl('|', '#', '-'), 2);
 
         d1.display();
         d2.display();
@@ -15,5 +17,7 @@ public class Main {
         d4.randomDisplay(5);
         d5.multiDisplay(3);
         d5.randomDisplay(5);
+        d6.increaseDisplay(4);
+        d7.increaseDisplay(6);
     }
 }
