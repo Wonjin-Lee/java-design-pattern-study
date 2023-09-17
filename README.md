@@ -11,3 +11,5 @@
 ### 7. [Builder 패턴](/src/main/java/com/wonjin/designpattern/builder)
 ### 8. [Abstract Factory 패턴](/src/main/java/com/wonjin/designpattern/abstractfactory)
 ### 9. [Bridge 패턴](/src/main/java/com/wonjin/designpattern/bridge)
+### 10. [Strategy 패턴](/src/main/java/com/wonjin/designpattern/strategy)
+### 11. [Composite 패턴](/src/main/java/com/wonjin/designpattern/composite)
